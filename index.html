@@ -1,0 +1,785 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title data-fws-slot="business.name">Modern Cafe</title>
+    <meta
+      name="description"
+      content="A premium modern cafe and restaurant template for FreeWebStore."
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#f7f1e8] text-stone-900 antialiased">
+    <header
+      class="sticky top-0 z-50 border-b border-white/10 bg-black/35 backdrop-blur-xl"
+    >
+      <div
+        class="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-3 sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8"
+      >
+        <a href="#home" class="flex items-center gap-3 self-start text-white">
+          <span
+            class="grid h-11 w-11 place-items-center rounded-full border border-white/15 bg-white/10 text-lg font-semibold shadow-lg shadow-black/20"
+          >
+            M
+          </span>
+          <span>
+            <span
+              class="block text-xs uppercase tracking-[0.32em] text-amber-200/80"
+              >Cafe & Bistro</span
+            >
+            <span
+              class="block text-lg font-semibold"
+              data-fws-slot="business.name"
+              >Modern Cafe</span
+            >
+          </span>
+        </a>
+        <nav
+          class="hidden items-center gap-8 text-sm font-medium text-white/85 md:flex"
+        >
+          <a class="transition hover:text-amber-200" href="#about">About</a>
+          <a class="transition hover:text-amber-200" href="#menu">Menu</a>
+          <a class="transition hover:text-amber-200" href="#gallery">Gallery</a>
+          <a class="transition hover:text-amber-200" href="#contact">Contact</a>
+        </nav>
+        <a
+          href="#contact"
+          class="w-full rounded-full border border-amber-200/40 bg-amber-100/15 px-4 py-2 text-center text-sm font-semibold text-white shadow-lg shadow-black/15 transition hover:-translate-y-0.5 hover:bg-amber-100/25 sm:w-auto"
+        >
+          Book a Table
+        </a>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="relative overflow-hidden">
+        <div class="absolute inset-0">
+          <img
+            src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1800&q=80"
+            alt="Elegant cafe interior with warm lighting"
+            class="h-full w-full object-cover"
+          />
+          <div
+            class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/45 to-[#f7f1e8]"
+          ></div>
+          <div
+            class="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(251,191,36,0.22),transparent_35%),radial-gradient(circle_at_top_right,rgba(255,255,255,0.08),transparent_30%)]"
+          ></div>
+        </div>
+
+        <div
+          class="relative mx-auto grid max-w-7xl items-center gap-10 px-4 py-14 sm:px-6 sm:py-16 lg:grid-cols-[1.1fr_0.9fr] lg:px-8 lg:py-28 lg:min-h-[92vh]"
+        >
+          <div class="max-w-3xl text-white">
+            <p
+              class="inline-flex items-center rounded-full border border-white/15 bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.3em] text-amber-100/90 backdrop-blur-md"
+            >
+              Artisan coffee, refined dining
+            </p>
+            <h1
+              class="mt-6 max-w-3xl text-4xl font-semibold leading-tight tracking-tight sm:text-5xl lg:text-7xl"
+              data-fws-slot="business.name"
+            >
+              Modern Cafe
+            </h1>
+            <p
+              class="mt-5 max-w-2xl text-base leading-8 text-white/82 sm:text-lg lg:text-xl"
+              data-fws-slot="business.tagline"
+            >
+              A premium neighborhood cafe serving signature espresso, seasonal
+              brunch plates, and beautifully crafted desserts in a calm,
+              design-led space.
+            </p>
+            <p
+              class="mt-5 max-w-2xl text-base leading-7 text-white/72"
+              data-fws-slot="business.description"
+            >
+              Slow mornings, glowing interiors, and a menu built around
+              thoughtful ingredients. Whether you are meeting clients, catching
+              up with friends, or stopping in for a perfect flat white, every
+              visit feels effortless and memorable.
+            </p>
+            <div class="mt-8 flex flex-col gap-4 sm:flex-row">
+              <a
+                href="#menu"
+                class="inline-flex w-full items-center justify-center rounded-full bg-amber-300 px-7 py-3.5 text-sm font-semibold text-stone-950 shadow-xl shadow-amber-900/20 transition hover:-translate-y-0.5 hover:bg-amber-200 sm:w-auto"
+              >
+                Explore Menu
+              </a>
+              <a
+                href="#contact"
+                class="inline-flex w-full items-center justify-center rounded-full border border-white/20 bg-white/10 px-7 py-3.5 text-sm font-semibold text-white backdrop-blur-md transition hover:-translate-y-0.5 hover:bg-white/15 sm:w-auto"
+              >
+                Reserve Your Visit
+              </a>
+            </div>
+            <dl class="mt-10 grid max-w-2xl grid-cols-2 gap-3 sm:grid-cols-4 sm:gap-4">
+              <div
+                class="rounded-3xl border border-white/10 bg-white/10 px-4 py-4 backdrop-blur-md shadow-2xl shadow-black/10"
+              >
+                <dt class="text-xs uppercase tracking-[0.24em] text-white/55">
+                  Coffee Grade
+                </dt>
+                <dd class="mt-2 text-2xl font-semibold text-white">100%</dd>
+              </div>
+              <div
+                class="rounded-3xl border border-white/10 bg-white/10 px-4 py-4 backdrop-blur-md shadow-2xl shadow-black/10"
+              >
+                <dt class="text-xs uppercase tracking-[0.24em] text-white/55">
+                  Freshly Roasted
+                </dt>
+                <dd class="mt-2 text-2xl font-semibold text-white">Daily</dd>
+              </div>
+              <div
+                class="rounded-3xl border border-white/10 bg-white/10 px-4 py-4 backdrop-blur-md shadow-2xl shadow-black/10"
+              >
+                <dt class="text-xs uppercase tracking-[0.24em] text-white/55">
+                  Average Rating
+                </dt>
+                <dd class="mt-2 text-2xl font-semibold text-white">4.9</dd>
+              </div>
+              <div
+                class="rounded-3xl border border-white/10 bg-white/10 px-4 py-4 backdrop-blur-md shadow-2xl shadow-black/10"
+              >
+                <dt class="text-xs uppercase tracking-[0.24em] text-white/55">
+                  Happy Guests
+                </dt>
+                <dd class="mt-2 text-2xl font-semibold text-white">10k+</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="mt-12 lg:mt-0">
+            <div
+              class="rounded-[2rem] border border-white/15 bg-white/12 p-4 shadow-2xl shadow-black/20 backdrop-blur-2xl sm:p-5"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=80"
+                alt="Barista preparing coffee in a premium cafe"
+                class="h-72 w-full rounded-[1.6rem] object-cover shadow-xl transition duration-500 hover:scale-[1.02] sm:h-[28rem]"
+              />
+              <div class="mt-4 grid gap-4 sm:grid-cols-2">
+                <div
+                  class="rounded-[1.5rem] border border-white/10 bg-black/35 p-5 text-white shadow-lg backdrop-blur-md"
+                >
+                  <p
+                    class="text-xs uppercase tracking-[0.25em] text-amber-200/80"
+                  >
+                    Signature Drink
+                  </p>
+                  <p class="mt-2 text-xl font-semibold">Honey Oat Latte</p>
+                  <p class="mt-2 text-sm leading-6 text-white/70">
+                    Silky espresso, local honey, and oat milk with a gentle
+                    finish.
+                  </p>
+                </div>
+                <div
+                  class="rounded-[1.5rem] border border-white/10 bg-white/85 p-5 text-stone-900 shadow-lg"
+                >
+                  <p class="text-xs uppercase tracking-[0.25em] text-amber-700">
+                    Today&apos;s Special
+                  </p>
+                  <p class="mt-2 text-xl font-semibold">Burrata Toast</p>
+                  <p class="mt-2 text-sm leading-6 text-stone-600">
+                    Heirloom tomatoes, basil oil, and toasted sourdough.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="about"
+        class="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28"
+      >
+        <div class="grid gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
+          <div class="space-y-6">
+            <p
+              class="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700"
+            >
+              About
+            </p>
+            <h2
+              class="max-w-xl text-3xl font-semibold tracking-tight text-stone-950 sm:text-4xl"
+            >
+              A calm, premium cafe experience built for mornings that linger.
+            </h2>
+            <p
+              class="max-w-2xl text-base leading-8 text-stone-700"
+              data-fws-slot="business.description"
+            >
+              Modern Cafe brings together specialty coffee, chef-led brunch, and
+              a warm, minimalist atmosphere. From the first pour to the final
+              bite, we focus on clean flavors, attentive service, and a space
+              that feels equally inviting for slow mornings or polished business
+              meetings.
+            </p>
+            <div class="grid gap-4 sm:grid-cols-2">
+              <div
+                class="rounded-[1.75rem] border border-white/70 bg-white/80 p-6 shadow-[0_20px_60px_rgba(109,80,42,0.08)] backdrop-blur-md"
+              >
+                <p class="text-sm font-semibold text-amber-800">
+                  Ethically sourced
+                </p>
+                <p class="mt-2 text-sm leading-6 text-stone-600">
+                  Selected beans and ingredients with a focus on consistency and
+                  quality.
+                </p>
+              </div>
+              <div
+                class="rounded-[1.75rem] border border-white/70 bg-white/80 p-6 shadow-[0_20px_60px_rgba(109,80,42,0.08)] backdrop-blur-md"
+              >
+                <p class="text-sm font-semibold text-amber-800">
+                  Thoughtful hospitality
+                </p>
+                <p class="mt-2 text-sm leading-6 text-stone-600">
+                  A refined space designed for comfort, clarity, and effortless
+                  service.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="relative">
+            <div
+              class="absolute -left-4 top-8 h-40 w-40 rounded-full bg-amber-200/50 blur-3xl"
+            ></div>
+            <div class="grid gap-4 sm:grid-cols-2">
+              <img
+                src="https://images.unsplash.com/photo-1481833761820-0509d3217039?auto=format&fit=crop&w=900&q=80"
+                alt="Cafe pastry and coffee service"
+                class="h-72 w-full rounded-[2rem] object-cover shadow-xl"
+              />
+              <img
+                src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=900&q=80"
+                alt="Happy guests enjoying coffee in a cafe"
+                class="mt-8 h-72 w-full rounded-[2rem] object-cover shadow-xl sm:mt-12"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="menu" class="bg-[#efe4d4] py-16 sm:py-20 lg:py-28">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div
+            class="flex flex-col gap-4 md:flex-row md:items-end md:justify-between"
+          >
+            <div>
+              <p
+                class="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700"
+              >
+                Featured Menu
+              </p>
+              <h2
+                class="mt-2 text-3xl font-semibold tracking-tight text-stone-950 sm:text-4xl"
+              >
+                Signature flavors, curated for every part of the day.
+              </h2>
+            </div>
+            <p class="max-w-2xl text-sm leading-7 text-stone-700">
+              A concise selection of the items guests return for most often:
+              bold espresso, delicate pastries, and balanced brunch plates built
+              for a premium cafe experience.
+            </p>
+          </div>
+
+          <div class="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+            <article class="group rounded-[2rem] border border-white/70 bg-white/85 p-5 shadow-[0_20px_60px_rgba(109,80,42,0.08)] backdrop-blur-md transition hover:-translate-y-1 hover:shadow-[0_24px_70px_rgba(109,80,42,0.14)]">
+              <img
+                src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=80"
+                alt="Espresso and latte art"
+                class="h-40 w-full rounded-[1.5rem] object-cover transition duration-500 group-hover:scale-[1.03] sm:h-48"
+              />
+              <div class="mt-5 flex items-start justify-between gap-4">
+                <div>
+                  <h3 class="text-lg font-semibold text-stone-950">Citrus Espresso</h3>
+                  <p class="mt-1 text-sm leading-6 text-stone-600">Bright, aromatic, and perfectly balanced.</p>
+                </div>
+                <span class="rounded-full bg-amber-100 px-3 py-1 text-sm font-semibold text-amber-800">A$6</span>
+              </div>
+            </article>
+
+            <article class="group rounded-[2rem] border border-white/70 bg-white/85 p-5 shadow-[0_20px_60px_rgba(109,80,42,0.08)] backdrop-blur-md transition hover:-translate-y-1 hover:shadow-[0_24px_70px_rgba(109,80,42,0.14)]">
+              <img
+                src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=80"
+                alt="Fresh brunch toast"
+                class="h-40 w-full rounded-[1.5rem] object-cover transition duration-500 group-hover:scale-[1.03] sm:h-48"
+              />
+              <div class="mt-5 flex items-start justify-between gap-4">
+                <div>
+                  <h3 class="text-lg font-semibold text-stone-950">Avocado Burrata Toast</h3>
+                  <p class="mt-1 text-sm leading-6 text-stone-600">Creamy, vibrant, and lightly finished.</p>
+                </div>
+                <span class="rounded-full bg-amber-100 px-3 py-1 text-sm font-semibold text-amber-800">A$14</span>
+              </div>
+            </article>
+
+            <article class="group rounded-[2rem] border border-white/70 bg-white/85 p-5 shadow-[0_20px_60px_rgba(109,80,42,0.08)] backdrop-blur-md transition hover:-translate-y-1 hover:shadow-[0_24px_70px_rgba(109,80,42,0.14)]">
+              <img
+                src="https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&w=900&q=80"
+                alt="Coffee with dessert on a table"
+                class="h-40 w-full rounded-[1.5rem] object-cover object-center transition duration-500 group-hover:scale-[1.03] sm:h-48"
+              />
+              <div class="mt-5 flex items-start justify-between gap-4">
+                <div>
+                  <h3 class="text-lg font-semibold text-stone-950">Valrhona Chocolate Tart</h3>
+                  <p class="mt-1 text-sm leading-6 text-stone-600">Rich ganache with sea salt and cream.</p>
+                </div>
+                <span class="rounded-full bg-amber-100 px-3 py-1 text-sm font-semibold text-amber-800">A$9</span>
+              </div>
+            </article>
+
+            <article class="group rounded-[2rem] border border-white/70 bg-white/85 p-5 shadow-[0_20px_60px_rgba(109,80,42,0.08)] backdrop-blur-md transition hover:-translate-y-1 hover:shadow-[0_24px_70px_rgba(109,80,42,0.14)]">
+              <img
+                src="https://images.unsplash.com/photo-1522992319-0365e5f11656?auto=format&fit=crop&w=900&q=80"
+                alt="Breakfast plate with eggs and greens"
+                class="h-36 w-full rounded-[1.5rem] object-cover object-center transition duration-500 group-hover:scale-[1.03] sm:h-44"
+              />
+              <div class="mt-5 flex items-start justify-between gap-4">
+                <div>
+                  <h3 class="text-lg font-semibold text-stone-950">Garden Breakfast Plate</h3>
+                  <p class="mt-1 text-sm leading-6 text-stone-600">Eggs, greens, sourdough, and herbs.</p>
+                </div>
+                <span class="rounded-full bg-amber-100 px-3 py-1 text-sm font-semibold text-amber-800">A$16</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
+        <div class="grid gap-6 lg:grid-cols-3">
+          <div
+            class="rounded-[2rem] border border-white/70 bg-white/85 p-8 shadow-[0_20px_60px_rgba(109,80,42,0.08)] backdrop-blur-md lg:col-span-1"
+          >
+            <p
+              class="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700"
+            >
+              Why Choose Us
+            </p>
+            <h2
+              class="mt-3 text-3xl font-semibold tracking-tight text-stone-950"
+            >
+              Every detail is made to feel elevated.
+            </h2>
+            <p class="mt-4 text-sm leading-7 text-stone-700">
+              We combine impeccable service, a polished interior, and a menu
+              that balances comfort with craft. It is the kind of cafe guests
+              remember and return to.
+            </p>
+          </div>
+          <div class="grid gap-6 md:grid-cols-2 lg:col-span-2">
+            <article
+              class="rounded-[2rem] bg-[#2d1e17] p-7 text-white shadow-[0_20px_60px_rgba(45,30,23,0.2)] transition hover:-translate-y-1"
+            >
+              <div
+                class="flex h-12 w-12 items-center justify-center rounded-2xl bg-amber-300 text-stone-950"
+              >
+                01
+              </div>
+              <h3 class="mt-6 text-xl font-semibold">Premium ingredients</h3>
+              <p class="mt-3 text-sm leading-7 text-white/72">
+                Beans, produce, and bakery items selected for freshness, depth,
+                and consistency.
+              </p>
+            </article>
+            <article
+              class="rounded-[2rem] bg-white p-7 shadow-[0_20px_60px_rgba(109,80,42,0.08)] transition hover:-translate-y-1"
+            >
+              <div
+                class="flex h-12 w-12 items-center justify-center rounded-2xl bg-amber-100 text-amber-800"
+              >
+                02
+              </div>
+              <h3 class="mt-6 text-xl font-semibold text-stone-950">
+                Design-led atmosphere
+              </h3>
+              <p class="mt-3 text-sm leading-7 text-stone-600">
+                Soft textures, natural light, and modern seating create a calm
+                luxury setting.
+              </p>
+            </article>
+            <article
+              class="rounded-[2rem] bg-white p-7 shadow-[0_20px_60px_rgba(109,80,42,0.08)] transition hover:-translate-y-1"
+            >
+              <div
+                class="flex h-12 w-12 items-center justify-center rounded-2xl bg-amber-100 text-amber-800"
+              >
+                03
+              </div>
+              <h3 class="mt-6 text-xl font-semibold text-stone-950">
+                Friendly hospitality
+              </h3>
+              <p class="mt-3 text-sm leading-7 text-stone-600">
+                Warm service and thoughtful pacing help every visit feel easy
+                and personal.
+              </p>
+            </article>
+            <article
+              class="rounded-[2rem] bg-[#f4ece0] p-7 shadow-[0_20px_60px_rgba(109,80,42,0.08)] transition hover:-translate-y-1"
+            >
+              <div
+                class="flex h-12 w-12 items-center justify-center rounded-2xl bg-stone-950 text-white"
+              >
+                04
+              </div>
+              <h3 class="mt-6 text-xl font-semibold text-stone-950">
+                All-day menu
+              </h3>
+              <p class="mt-3 text-sm leading-7 text-stone-700">
+                Breakfast, lunch, dessert, and specialty drinks designed to fit
+                any schedule.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery" class="bg-[#efe4d4] py-16 sm:py-20 lg:py-28">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div class="max-w-3xl">
+            <p
+              class="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700"
+            >
+              Gallery
+            </p>
+            <h2
+              class="mt-2 text-3xl font-semibold tracking-tight text-stone-950 sm:text-4xl"
+            >
+              A visual taste of the experience.
+            </h2>
+          </div>
+          <div class="mt-10 grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+            <img
+              src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=900&q=80"
+              alt="Fresh bakery items"
+              class="h-60 w-full rounded-[2rem] object-cover shadow-lg transition duration-500 hover:-translate-y-1 hover:scale-[1.01] sm:h-72"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&w=900&q=80"
+              alt="Dessert display"
+              class="h-60 w-full rounded-[2rem] object-cover shadow-lg transition duration-500 hover:-translate-y-1 hover:scale-[1.01] sm:h-72"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80&v=3"
+              alt="Cafe customers enjoying drinks"
+              class="h-60 w-full rounded-[2rem] object-cover object-center shadow-lg transition duration-500 hover:-translate-y-1 hover:scale-[1.01] sm:h-72"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=900&q=80"
+              alt="Cafe interior with warm wood details"
+              class="h-60 w-full rounded-[2rem] object-cover shadow-lg transition duration-500 hover:-translate-y-1 hover:scale-[1.01] sm:h-72"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-28">
+        <div class="grid gap-8 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
+          <div>
+            <p
+              class="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700"
+            >
+              Testimonials
+            </p>
+            <h2
+              class="mt-2 text-3xl font-semibold tracking-tight text-stone-950 sm:text-4xl"
+            >
+              Guests love the atmosphere as much as the coffee.
+            </h2>
+            <p class="mt-4 text-sm leading-7 text-stone-700">
+              A few words from regulars who come for the food, return for the
+              service, and stay for the atmosphere.
+            </p>
+          </div>
+          <div class="grid gap-6 md:grid-cols-2">
+            <figure
+              class="rounded-[2rem] border border-white/70 bg-white p-7 shadow-[0_20px_60px_rgba(109,80,42,0.08)]"
+            >
+              <blockquote class="text-sm leading-7 text-stone-700">
+                “The interiors feel calm and luxurious, and the coffee is
+                consistently excellent. It is my favorite place for morning
+                meetings.”
+              </blockquote>
+              <figcaption class="mt-5 flex items-center gap-3">
+                <div
+                  class="grid h-12 w-12 place-items-center rounded-full bg-amber-100 font-semibold text-amber-800"
+                >
+                  AM
+                </div>
+                <div>
+                  <p class="font-semibold text-stone-950">Ava Martin</p>
+                  <p class="text-sm text-stone-500">Design consultant</p>
+                </div>
+              </figcaption>
+            </figure>
+            <figure
+              class="rounded-[2rem] border border-white/70 bg-white p-7 shadow-[0_20px_60px_rgba(109,80,42,0.08)]"
+            >
+              <blockquote class="text-sm leading-7 text-stone-700">
+                “Beautiful food, attentive service, and a menu that feels
+                considered. The brunch plates look as good as they taste.”
+              </blockquote>
+              <figcaption class="mt-5 flex items-center gap-3">
+                <div
+                  class="grid h-12 w-12 place-items-center rounded-full bg-stone-950 font-semibold text-white"
+                >
+                  JR
+                </div>
+                <div>
+                  <p class="font-semibold text-stone-950">James Reed</p>
+                  <p class="text-sm text-stone-500">Local regular</p>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-[#1f140f] py-16 text-white sm:py-20 lg:py-28">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div class="grid gap-6 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
+            <div>
+              <p
+                class="text-sm font-semibold uppercase tracking-[0.3em] text-amber-300"
+              >
+                Opening Hours
+              </p>
+              <h2
+                class="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl"
+              >
+                Open daily for coffee, brunch, and evening dessert.
+              </h2>
+              <p
+                class="mt-4 max-w-xl text-sm leading-7 text-white/70"
+                data-fws-slot="business.hours"
+              >
+                Monday to Friday 7:00 AM to 4:00 PM. Saturday and Sunday 8:00 AM
+                to 3:00 PM.
+              </p>
+            <div class="grid gap-4 sm:grid-cols-2">
+              <div
+                class="rounded-[2rem] border border-white/10 bg-white/5 p-6 backdrop-blur-md"
+              >
+                <p class="text-sm font-semibold text-amber-200">Weekdays</p>
+                <p class="mt-2 text-2xl font-semibold">7:00 AM - 4:00 PM</p>
+                <p class="mt-2 text-sm text-white/60">Monday - Friday</p>
+              </div>
+              <div
+                class="rounded-[2rem] border border-white/10 bg-white/5 p-6 backdrop-blur-md"
+              >
+                <p class="text-sm font-semibold text-amber-200">Weekends</p>
+                <p class="mt-2 text-2xl font-semibold">8:00 AM - 3:00 PM</p>
+                <p class="mt-2 text-sm text-white/60">Saturday - Sunday</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="contact"
+        class="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-28"
+      >
+        <div class="grid gap-8 lg:grid-cols-[1fr_1.05fr]">
+          <div
+            class="rounded-[2rem] border border-white/70 bg-white p-8 shadow-[0_20px_60px_rgba(109,80,42,0.08)]"
+          >
+            <p
+              class="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700"
+            >
+              Contact
+            </p>
+            <h2
+              class="mt-2 text-3xl font-semibold tracking-tight text-stone-950"
+            >
+              Visit Modern Cafe
+            </h2>
+            <p class="mt-4 max-w-xl text-sm leading-7 text-stone-700">
+              We are ready to welcome you for breakfast, coffee, lunch, or a
+              quiet working session. Reach out for reservations, private events,
+              or catering inquiries.
+            </p>
+            <div class="mt-8 space-y-4 text-sm text-stone-700">
+              <div class="rounded-[1.5rem] bg-[#f7f1e8] p-5">
+                <p
+                  class="text-xs font-semibold uppercase tracking-[0.24em] text-amber-700"
+                >
+                  Email
+                </p>
+                <p
+                  class="mt-2 text-base font-medium"
+                  data-fws-slot="contact.email"
+                >
+                  hello@moderncafe.com
+                </p>
+              </div>
+              <div class="rounded-[1.5rem] bg-[#f7f1e8] p-5">
+                <p
+                  class="text-xs font-semibold uppercase tracking-[0.24em] text-amber-700"
+                >
+                  Phone
+                </p>
+                <p
+                  class="mt-2 text-base font-medium"
+                  data-fws-slot="contact.phone"
+                >
+                  +61 2 5555 0124
+                </p>
+              </div>
+              <div class="rounded-[1.5rem] bg-[#f7f1e8] p-5">
+                <p
+                  class="text-xs font-semibold uppercase tracking-[0.24em] text-amber-700"
+                >
+                  Address
+                </p>
+                <p
+                  class="mt-2 text-base font-medium"
+                  data-fws-slot="contact.address"
+                >
+                  88 Artisan Lane, Southbank, Melbourne VIC 3006, Australia
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="overflow-hidden rounded-[2rem] border border-white/70 bg-white shadow-[0_20px_60px_rgba(109,80,42,0.08)]"
+          >
+            <div
+              class="grid h-full min-h-[32rem] gap-0 lg:grid-cols-[1.05fr_0.95fr]"
+            >
+              <div class="relative min-h-[18rem]">
+                <img
+                  src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+                  alt="Cafe map-style placeholder interior image"
+                  class="h-full w-full object-cover"
+                />
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-black/40 via-black/5 to-transparent"
+                ></div>
+                <div
+                  class="absolute bottom-4 left-4 rounded-full bg-white/90 px-4 py-2 text-xs font-semibold uppercase tracking-[0.24em] text-stone-900 shadow-lg backdrop-blur-md"
+                >
+                  Map Placeholder
+                </div>
+              </div>
+              <div class="flex flex-col justify-between bg-[#f7f1e8] p-8">
+                <div>
+                  <p
+                    class="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700"
+                  >
+                    Find Us
+                  </p>
+                  <h3
+                    class="mt-2 text-2xl font-semibold tracking-tight text-stone-950"
+                  >
+                    Easy to reach, easy to remember.
+                  </h3>
+                  <p class="mt-4 text-sm leading-7 text-stone-700">
+                    Perfect for neighborhood coffee runs, remote work sessions,
+                    and elegant meetups. Use the address above to locate us in
+                    your preferred map app.
+                  </p>
+                </div>
+                <div class="mt-8 grid gap-3 text-sm text-stone-700">
+                  <a
+                    class="rounded-full border border-stone-300 bg-white px-4 py-3 font-medium transition hover:border-amber-300 hover:bg-amber-50"
+                    href="#home"
+                    >Back to top</a
+                  >
+                  <p class="rounded-[1.5rem] bg-white px-4 py-4 leading-7">
+                    Private events, corporate orders, and weekend brunch
+                    bookings are available by request.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+      <footer class="border-t border-stone-200 bg-[#f2e8da]">
+      <div
+          class="mx-auto grid max-w-7xl gap-10 px-4 py-16 sm:px-6 lg:grid-cols-[1fr_auto] lg:px-8"
+      >
+        <div class="max-w-2xl">
+          <div class="flex items-center gap-3 text-stone-950">
+            <span
+              class="grid h-11 w-11 place-items-center rounded-full bg-stone-950 text-lg font-semibold text-white shadow-lg"
+              >M</span
+            >
+            <span>
+              <span
+                class="block text-xs uppercase tracking-[0.32em] text-amber-700"
+                >Cafe & Bistro</span
+              >
+              <span
+                class="block text-xl font-semibold"
+                data-fws-slot="business.name"
+                >Modern Cafe</span
+              >
+            </span>
+          </div>
+          <p
+            class="mt-4 max-w-xl text-sm leading-7 text-stone-600"
+            data-fws-slot="business.description"
+          >
+            A premium cafe and restaurant template designed for polished
+            hospitality, beautiful imagery, and a modern luxury feel.
+          </p>
+        </div>
+        <div class="grid gap-8 sm:grid-cols-2">
+          <div>
+            <p
+              class="text-sm font-semibold uppercase tracking-[0.24em] text-amber-700"
+            >
+              Connect
+            </p>
+            <ul class="mt-4 space-y-3 text-sm text-stone-600">
+              <li>
+                <a
+                  class="transition hover:text-stone-950"
+                  href="https://instagram.com"
+                  data-fws-slot="social.instagram"
+                  >Instagram</a
+                >
+              </li>
+              <li>
+                <a
+                  class="transition hover:text-stone-950"
+                  href="https://facebook.com"
+                  data-fws-slot="social.facebook"
+                  >Facebook</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p
+              class="text-sm font-semibold uppercase tracking-[0.24em] text-amber-700"
+            >
+              Hours
+            </p>
+            <p
+              class="mt-4 text-sm leading-7 text-stone-600"
+              data-fws-slot="business.hours"
+            >
+              Mon-Fri 7:00 AM - 9:00 PM, Sat-Sun 8:00 AM - 10:00 PM
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="border-t border-stone-200 py-5 text-center text-sm text-stone-500"
+      >
+        <span data-fws-slot="fws.byline"
+          >Template by kirantikoo · made with FreeWebStore</span
+        >
+      </div>
+    </footer>
+  </body>
+</html>
